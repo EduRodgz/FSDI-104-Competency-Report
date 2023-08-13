@@ -1,0 +1,130 @@
+.error{
+    background-color: red;
+}
+
+#pets{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+.pet{
+    background-color: #dedede;
+    border:1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+
+}
+#numberPets{
+    font-size: 12px;
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 50%;
+}
+.highlight td{
+    background-color: orange!important;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+  }
+  
+
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+
+  .form-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+
+  .btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+  }
+  
+
+#txtSearch {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+
+  footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    border-top: 1px solid #ddd;
+  }
