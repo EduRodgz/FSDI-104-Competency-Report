@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a dark background color and text color for the whole page */
+body {
+    background-color: #121212;
+    color: #d3d3d3;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #1f1f1f;
+    color: #ffa500;
+    padding: 20px;
+    border-bottom: 2px solid #ffa500;
+}
+
+/* Style the navigation links */
+nav a {
+    color: #ffa500;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Center the main heading */
+.text-center {
+    text-align: center;
+}
+
+/* Style the main content area */
+main {
+    padding: 20px;
+}
+
+/* Style the thumbnail images */
+.img-thumbnail {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 15px;
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 165, 0, 0.2);
+}
+
+/* Add spacing between paragraphs */
+p {
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #1f1f1f;
+    color: #ffa500;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #ffa500;
+}
+
+/* Style the footer navigation links */
+footer nav a {
+    color: #ffa500;
+    text-decoration: none;
+    margin: 0 10px;
+}

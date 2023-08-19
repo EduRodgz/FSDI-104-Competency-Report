@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        <h1>The Fashion Pet</h1>
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="register.html">Register</a>
+
+        </nav>
+    </header>
+    <main>
+        <h1 class="txt">Our Loyal "Paw-stomers"</h1>
+        <img src="img/cat.2.jpg" class="img-slide" alt="cat2">
+        <img src="img/cat.3.jpg" class="img-slide" alt="cat3">
+        <img src="img/dog.2.jpg" class="img-slide" alt="dog2">
+        <img src="img/dog.3.jpg" class="img-slide" alt="dog3">
+        <img src="img/cat.1.jpg" class="img-slide" alt="cat1">
+        <img src="img/dog.1.jpg" class="img-slide" alt="cat1">
+        <span class="border border-dark-subtle"></span>
+    </main>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("img-slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); 
+        }
+    </script>
+</body>
+<footer class="footer">
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="register.html">Register</a>
+
+    </nav>
+</footer>
+</html>
